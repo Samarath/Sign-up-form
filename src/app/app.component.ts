@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'comunev';
+
+  calender(){
+    console.log('calender appread')
+  }
+
+  register(){
+    console.log('Registered');
+  }
 }
